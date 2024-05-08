@@ -1,0 +1,80 @@
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color:#000;
+  opacity: 0.9;
+  display: none;
+}
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.lightbox .lb-image {
+  max-width: inherit;
+}
+
+.lb-outerContainer {
+  background:#fff;
+  margin: 0 auto;
+  position:relative;
+}
+
+.lb-loader {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url(../../images/preloader.gif) no-repeat center center #222 ;
+}
+
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.lb-prev, .lb-next {
+  height: 100%;
+  cursor: pointer;
+  display: block;
+  width: 50%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.lb-prev {
+  float: left;
+  background: url(../../images/prev.png) left 50% no-repeat;
+}
+.lb-next {
+  	float: right;
+ 	background: url(../../images/next.png) right 50% no-repeat;
+}
+.lb-prev:hover, .lb-next:hover {
+  opacity: 1;
+}
+
+.lb-dataContainer {
+  margin: 0 auto;
+  width: 100%;
+}
+.lb-data {
+	float:left;
+	width:100%;
+	padding:5px 10px;
+	background:#000;
+}
+.lb-data .lb-caption {
+  font-size: 20px;
+  font-weight: bold;
+  color:#fff;
+}
+.lb-data .lb-number {
+  display: none !important;
+  font-size: 15px;
+  color: #999;
+}

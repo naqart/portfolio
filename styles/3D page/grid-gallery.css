@@ -1,0 +1,30 @@
+.grid-gallery {
+	margin:auto;
+}
+.grid-gallery a.item {
+	position:relative;
+	overflow:hidden;
+	margin-bottom: 3px;
+	border-radius: 8px;
+}
+.grid-gallery a img {
+	width: 332px;
+	transition:transform 0.3s ease-in-out;
+}
+.grid-gallery a:hover img	{
+	transform:scale(1.2,1.2);
+	filter: brightness(115%)
+}
+
+.grid-gallery .description {
+	top:0px; 
+	left:0px; 
+	right:0px;
+	bottom:0px; 
+	position:absolute; 
+	transition:all 0.3s ease-in-out; 
+	padding:10px;
+	font-size:24px;
+	color:#fff;
+}
+

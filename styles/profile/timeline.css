@@ -1,0 +1,201 @@
+/*Main page*/
+#navi .profile-nav a,	
+.main-title,
+.timeline ul:before,
+.timeline .content 		{background: #AA88CC; color:#FFF;}
+
+#navi,
+.main_content			{border-color:#AA88CC;}
+
+.main-title:hover		{background:linear-gradient(90deg, #8866bb, #664499); filter: drop-shadow(0px 3px 2px #111);}
+
+.main-title a 			{color:#fff; display:block;}
+
+/*Timeline*/
+.timeline {
+	width: 100%; 
+	margin: 0 auto 5px;
+	padding-bottom:5px;
+	display:none;
+}
+
+.main-title a .arrow		{float:right; position: relative; width: 10px; height: 10px; top:5px;}
+.main-title a .arrow:before,
+.main-title a .arrow:after	{
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 6px;
+	width: 3px;
+	height: 12px;
+	background: #fff;
+	border-radius: 5px;
+	transform: rotate(-45deg);
+	transform-origin: 0 100%;
+}
+.main-title a .arrow:after{
+	left: -2px;
+	transform: rotate(45deg);
+	transform-origin: 100% 100%;
+}
+.main-title a .arrow:active {
+	transform: rotate(0deg)
+}
+
+.timeline .time		{width:200px;}
+
+/* The icons */
+.timeline .time-icon {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	background: none;
+	border-radius: 50%;
+	left: 180px;
+	top: 8px;
+	box-shadow: 0 0 0 8px #AA88CC;
+}
+
+.timeline ul {
+	position: relative;
+} 
+
+/* COLOR */
+.timeline ul:before,
+.timeline .content {
+	border-radius: 8px;
+}
+.timeline .time span,
+.timeline li:nth-child(even) .content,
+.my-self .time p span:nth-child(4) {
+	color: #AA88CC;
+}
+.timeline li:nth-child(even) .content,
+.timeline li:nth-child(even) .content h2 {border-color:#AA88CC !important}
+
+/* The line */
+.timeline ul:before {
+	content: '';
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+	width: 10px;
+	left: 195px;
+}
+.timeline .time span {
+	float:left;
+	width:160px;
+	margin-top:12px;
+	display: block;
+	text-align: right;
+	font-size: 19px;
+	font-family: system-ui;
+}
+
+/*even*/
+.timeline li:nth-child(even) .time span {
+	color: #ddd;
+}
+.timeline li:nth-child(even) .content {
+	background:none;
+	border:1px solid;
+}
+.timeline li:nth-child(even) .content h2 {
+	border-bottom: 1px solid;
+}
+
+/* The triangle */
+.timeline .content:after {
+	right: 100%;
+	border:10px solid transparent;
+	border-right-color: #AA88CC ;
+	content: " ";
+	position: absolute;
+	top: 15px;
+}
+
+/* Right content */
+.timeline .content {
+	margin: 0 0 15px 250px;
+	color: #fff;
+	padding:10px 20px;
+	position: relative;
+}
+.timeline .content h2 {
+	font-size:24px;
+	font-weight:400;
+	font-family: system-ui;
+	margin:0 0 10px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #fff;
+}
+.timeline p {
+	margin:0;
+	font-size:18px;
+	font-family: system-ui;
+	line-height:1.8;
+	text-align:justify;
+}
+
+/* ME */
+.my-self .timeline {
+	display:block;
+}
+.my-self .time p {
+	float:left;
+	margin-top:14px;
+	line-height:1;
+}
+.my-self .content p:nth-child(2)  {
+	float:left;
+	width:50%;
+}
+.my-self .content p:nth-child(3)  {
+	float:right;
+	width:32%;
+	perspective:600px;
+}
+.my-self .content p:nth-child(4)  {
+	text-align:justify;
+	margin-top:90px;
+	min-height:305px;
+}
+
+.my-self .time p span {
+	color:#ddd;
+	margin-top: 14px;
+}
+
+.my-self .time p span:nth-child(3) {
+	margin-top:30px;
+	color: #AA88CC;
+}
+
+.my-self .content img  {
+	width: 100%;
+	padding:0;
+	transform:rotateY(-20deg);
+	outline:1px solid transparent;
+	border-radius: 8px;
+}
+
+/*MY-EXPERIENCE*/
+.my-experience li p {
+	column-count:4;
+	-moz-column-count:4;
+	-webkit-column-count:4;
+}
+
+/*MY-SKILLS*/
+.my-skills .content h2,
+.my-skills .content p {
+	display:inline-block;
+	width:100%;
+}
+.my-skills .content span {
+	width:34%;
+	float:left;
+}
+.my-skills .content span:nth-child(3) {
+	width:32%;
+}

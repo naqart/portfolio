@@ -1,0 +1,66 @@
+/* Slicebox Style */
+.slider {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height:100%;
+	padding: 0;
+}
+.slider li {
+	display: none;
+}
+
+.perspective {
+	position: relative;
+}
+.perspective > div {
+	position: absolute;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	-webkit-backface-visibility : hidden;
+	-moz-backface-visibility : hidden;
+	-o-backface-visibility : hidden;
+	-ms-backface-visibility : hidden;
+	backface-visibility : hidden;
+}
+.side {
+	margin: 0;
+	display: block;
+	position: absolute;
+
+	-moz-backface-visibility : hidden;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.nav-dots {
+	position:absolute;
+	height:30px;
+	width:100%;
+	right:20px;
+	text-align:right;
+	margin-top:-35px;
+}
+.nav-dots span {
+	background: #c0e000;
+	border:1px solid #fff;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	margin: 5px;
+	cursor: pointer;
+}
+.nav-dots span.nav-dot-current {
+	background:#fff;
+	border:1px solid #c0e000;
+}

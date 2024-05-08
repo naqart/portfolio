@@ -1,0 +1,109 @@
+/* CSS Document */
+html	{overflow-y:scroll;}
+
+body	{background:radial-gradient(#000 35%, #000033); margin:0 auto; width:100%; font-family:Myriad "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+		-webkit-transition-property: background-color;
+	   	-webkit-transition-duration: 600ms;
+		-moz-transition-property: background-color;
+		-moz-transition-duration: 600ms;
+		transition-property: background-color;
+		transition-duration: 600ms;
+}
+
+div				{box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box;}
+ul, li			{padding:0; margin:0; list-style:none}
+a				{text-decoration:none;}
+img				{outline:1px solid transparent;}
+a img 			{border:none}
+
+#body_content	{margin:0px auto; width:960px; position: relative;}
+
+.portfolio-pages #body_content	{width: 95%; max-width: 1720px;}
+
+
+/*TOP*/
+#top			{width:100%;}			
+#logo			{width:700px; margin:30px auto; text-align: center;}
+#logo a			{font-size:60px; color:#CCC;}
+
+/*NAVI*/
+#navi			{width:600px; height: 41px; display: flex; margin:0 auto; padding:0 50px; border-top:1px solid; border-bottom:1px solid;}
+.menu			{width:150px; height:auto;}
+.menu a			{width:100%; font-size:22px; color:#ccc; text-align:center; line-height:38px; display: block; padding: 3px 0 0px;
+
+				background-size:100% 200%;
+				-webkit-transition: all 0.3s;
+				-moz-transition: all 0.3s;
+				transition: all 0.3s; }
+
+#navi .portfolio-nav a 		{background-image:linear-gradient(transparent 50%, #77AAFF 50%);}
+#navi .profile-nav a 		{background-image:linear-gradient(transparent 50%, #AA88CC 50%);}
+#navi .others-nav a 		{background-image:linear-gradient(transparent 50%, #E44666 50%);}
+#navi .contact-nav a 		{background-image:linear-gradient(transparent 50%, #FFD366 50%);}
+
+#navi .menu ul li a	{background-image:none;}
+
+#navi a:hover		{color:#FFF; background-position: 0 100%;}
+
+
+/*MENU PORTFOLIO*/
+.portfolio-pages #navi .portfolio-nav a {color:#FFF}
+
+.portfolio-pages #navi		{border-color:#77AAFF !important;}
+
+.portfolio-pages #navi .portfolio-nav a,
+.main_content_portfolio .main-title		{background: #77AAFF;}
+
+
+/*MENU PORTFOLIO 2nd level*/
+.portfolio-nav ul	{position:absolute; z-index:9; width:600px; text-align:center; display: flex; margin-top: 4px;
+	
+				/* This is important for the show/hide CSS animation */
+				max-height:0px;
+				overflow:hidden;
+				
+				-webkit-transition:max-height 0.4s linear;
+				-moz-transition:max-height 0.4s linear;
+				-o-transition:max-height 0.4s linear;
+				transition:max-height 0.4s linear;
+				}
+.portfolio-nav:hover ul				{max-height:40px; /* Increase when adding more dropdown items */}
+
+.portfolio-nav ul li				{width:120px;}
+.portfolio-nav ul li a				{line-height:30px; color:#fff !important; display:block; align-content: center; padding: 2px 0; font-size:18px; background:none !important;}
+.portfolio-nav ul li a:hover		{background-color:rgba(119,170,255,0.75) !important; text-shadow:0 0 3px #fff; border-radius: 22px;}
+
+.portfolio-pages .portfolio-nav ul 	{overflow: visible;}
+
+#animations-page .portfolio-nav ul li:nth-child(1) a,
+#designs-page .portfolio-nav ul li:nth-child(2) a,
+#illustrations-page .portfolio-nav ul li:nth-child(3) a,
+#storyboards-page .portfolio-nav ul li:nth-child(4) a,
+#three-d-page .portfolio-nav ul li:nth-child(5) a 		{background-color:rgba(119,170,255,0.35) !important; border-radius: 26px;}
+
+
+/*MAIN BODY*/
+#main_body		{width:100%;}
+
+.main_content	{width:100%; min-height:420px; margin-top:40px; padding:20px; 
+				 background:radial-gradient(ellipse, rgba(255, 255, 255, 0.1) 0%, rgba(244, 211, 255, 0.1) ); 
+				 border:0px solid #ccc; border-radius:16px;
+				 box-shadow: 0px 3px 2px -2px #000;  
+				 -webkit-box-shadow:0px 3px 2px -2px #000;
+				 -moz-box-shadow: 0px 3px 2px -2px #000;
+				 -o-box-shadow: 0px 3px 2px -2px #000;
+				 }
+
+.main-title		{color:#fff; font-size:28px; margin-bottom:12px; padding:5px 20px; border-radius: 36px; text-align:center}
+
+
+/*FOOTER*/
+#footer			{width:960px; height:10px; margin: 80px auto 30px; padding-top: 2px;}
+#footer ul		{width:40%; margin:-30px auto 10px; display: flex; font-size:18px;}
+#footer li		{margin: auto; padding:0 20px;}
+#footer a		{color:#ccc;}
+#footer a:hover	{text-shadow:0 0 3px #FFF;}
+
+.portfolio-pages #footer 	{background: radial-gradient(rgba(119,170,255,0.6),rgba(0,17,82,0) 55%);}
+

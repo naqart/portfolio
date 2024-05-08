@@ -46,9 +46,9 @@
 				$('#lightbox-window').hide();
 
 				if ($(this).data('videosite') == "youtube") {
-					var url = 'http://www.youtube.com/embed/' + $(this).data('videoid') + '?autoplay=1';
+					var url = 'https://www.youtube.com/embed/' + $(this).data('videoid') + '?autoplay=1';
 				} else if($(this).data('videosite') == "vimeo") {
-					var url = 'http://player.vimeo.com/video/' + $(this).data('videoid') + '?autoplay=1';
+					var url = 'https://player.vimeo.com/video/' + $(this).data('videoid') + '?autoplay=1';
 				}
 
 				$('#lightbox-window').fadeIn(100);

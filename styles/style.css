@@ -17,19 +17,19 @@ a				{text-decoration:none;}
 img				{outline:1px solid transparent;}
 a img 			{border:none}
 
-#body_content	{margin:0px auto; width:960px; position: relative;}
+#body_content	{margin:0px auto; width: 96%; max-width:960px; position: relative;}
 
-.portfolio-pages #body_content	{width: 95%; max-width: 1720px;}
+.portfolio-pages #body_content	{width: 96%; max-width: 1720px;}
 
 
 /*TOP*/
 #top			{width:100%;}			
-#logo			{width:700px; margin:30px auto; text-align: center;}
+#logo			{margin:30px auto; text-align: center;}
 #logo a			{font-size:60px; color:#CCC;}
 
 /*NAVI*/
-#navi			{width:600px; height: 41px; display: flex; margin:0 auto; padding:0 50px; border-top:1px solid; border-bottom:1px solid;}
-.menu			{width:150px; height:auto;}
+#navi			{width: 100%; max-width:600px; height: 41px; display: flex; margin:0 auto; padding:0 50px; border-top:1px solid; border-bottom:1px solid;}
+.menu			{width: 25%; max-width: 150px; height:auto;}
 .menu a			{width:100%; font-size:22px; color:#ccc; text-align:center; line-height:38px; display: block; padding: 3px 0 0px;
 
 				background-size:100% 200%;
@@ -57,7 +57,7 @@ a img 			{border:none}
 
 
 /*MENU PORTFOLIO 2nd level*/
-.portfolio-nav ul	{position:absolute; z-index:9; width: 50%; max-width:600px; text-align:center; display: flex; margin-top: 4px;
+.portfolio-nav ul	{position:absolute; z-index:9; width: 100%; max-width:600px; text-align:center; display: flex; margin-top: 4px;
 	
 				/* This is important for the show/hide CSS animation */
 				max-height:0px;
@@ -70,7 +70,7 @@ a img 			{border:none}
 				}
 .portfolio-nav:hover ul				{max-height:40px; /* Increase when adding more dropdown items */}
 
-.portfolio-nav ul li				{width:120px;}
+.portfolio-nav ul li				{width: 20%; max-width:120px;}
 .portfolio-nav ul li a				{line-height:30px; color:#fff !important; display:block; align-content: center; padding: 2px 0; font-size:18px; background:none !important;}
 .portfolio-nav ul li a:hover		{background-color:rgba(119,170,255,0.75) !important; text-shadow:0 0 3px #fff; border-radius: 22px;}
 
@@ -99,8 +99,8 @@ a img 			{border:none}
 
 
 /*FOOTER*/
-#footer			{width:50%; max-width:960px; height:10px; margin: 80px auto 30px; padding-top: 2px;}
-#footer ul		{width:50%; margin:-30px auto 10px; display: flex; font-size:18px;}
+#footer			{width:100%; max-width:960px; height:10px; margin: 80px auto 30px; padding-top: 2px;}
+#footer ul		{width:100%; max-width:420px; margin:-30px auto 10px; display: flex; font-size:18px;}
 #footer li		{margin: auto; padding:0 20px;}
 #footer a		{color:#ccc;}
 #footer a:hover	{text-shadow:0 0 3px #FFF;}

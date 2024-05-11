@@ -5,7 +5,7 @@
 /*FILTER*/
 #gallery-filter {
 	display: flex;
-	margin-bottom:20px;
+	margin-bottom:15px;
 }
 #gallery-filter .filter {
 	color: #ccc;

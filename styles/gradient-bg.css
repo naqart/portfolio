@@ -56,14 +56,14 @@
 	overflow: visible;
 }
   .gradients-container {
-    filter: blur(40px) ;
+	filter: blur(10px);
     width: 100%;
     height: 100%;
   }
 
   .g1 {
     position: absolute;
-    background: radial-gradient(circle at center, rgba(var(--color1), 0.8) 0, rgba(var(--color1), 0) 50%) no-repeat;
+    background: radial-gradient(circle at center, rgba(var(--color1), 0.8) 0, rgba(var(--color1), 0) 30%) no-repeat;
     mix-blend-mode: var(--blending);
 
     width: var(--circle-size);
@@ -79,7 +79,7 @@
 
   .g2 {
     position: absolute;
-    background: radial-gradient(circle at center, rgba(var(--color2), 0.8) 0, rgba(var(--color2), 0) 50%) no-repeat;
+    background: radial-gradient(circle at center, rgba(var(--color2), 0.8) 0, rgba(var(--color2), 0) 30%) no-repeat;
     mix-blend-mode: var(--blending);
 
     width: var(--circle-size);
@@ -95,17 +95,43 @@
 
   .g3 {
     position: absolute;
-    background: radial-gradient(circle at center, rgba(var(--color3), 0.8) 0, rgba(var(--color3), 0) 50%) no-repeat;
+    background: radial-gradient(circle at center, rgba(var(--color3), 0.8) 0, rgba(var(--color3), 0) 30%) no-repeat;
     mix-blend-mode: var(--blending);
 
     width: var(--circle-size);
     height: var(--circle-size);
     top: calc(50% - var(--circle-size) / 2 + 200px);
-    left: calc(50% - var(--circle-size) / 2 - 500px);
+    left: calc(50% - var(--circle-size) / 2 - 0px);
 
     transform-origin: calc(50% + 400px);
     animation: moveInCircle 25s linear infinite;
 
     opacity: 1;
-  }
+ }
+
+/*BUBBLES FLOW*/
+.bubbles {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+.bubbles span {
+	position: relative;
+	width: 6px;
+	height: 6px;
+	margin: 0 5px;
+	background: #A685E2;
+	border-radius: 50%;
+	box-shadow: 0 0 2px 8px #A685E255, 0 0 10px #A685E2;
+	animation: animate 15s linear infinite;
+	animation-duration: calc(120s / var(--i));
+}
+.bubbles span:nth-child(even) {
+	background: #81F5FF;
+	box-shadow: 0 0 2px 8px #81F5FF55, 0 0 10px #81F5FF;
+}
+@keyframes animate{
+	0%	{transform: translateY(100vh) scale(0.2)}
+	100%{transform: translateY(-10vh) scale(1)}
+}
 

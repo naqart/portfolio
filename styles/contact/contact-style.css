@@ -1,9 +1,12 @@
-.main_content	 {display: flex; justify-content: center; align-items: center;
-}
+#navi .contact-nav a	{background:#FFD366bb; color:#FFF}
 
-.contact-content {
-	display: flex;
-}
+#navi,
+.contact-ava img,
+.contact-info span		{border-color:#FFD366 !important}
+
+.main_content	 		{display: flex; justify-content: center; align-items: center;}
+
+.contact-content 		{display: flex;}
 
 .contact-ava {
 	width:auto;

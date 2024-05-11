@@ -1,3 +1,17 @@
+/*MAIN PAGE*/
+#body_content	{width: 95%; max-width: 1720px;}
+
+#navi .others-nav a,
+.main-title		{background:#E4466688; color:#FFF; margin-bottom:0;}
+
+#navi,
+.main-title,
+.main_content	{border-color:#E44666;}
+
+#footer 		{background: radial-gradient(rgba(228,70,102,0.6),rgba(0,0,0,0) 55%);}
+
+
+/*SCROLLER*/
 #scroller {
 	overflow: hidden;
 	display: flex;

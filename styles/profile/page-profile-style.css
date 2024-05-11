@@ -1,17 +1,22 @@
 /*Main page*/
+.gradient-bg		{overflow: visible}
+
 #navi .profile-nav a,	
 .main-title,
 .timeline ul:before,
-.timeline .content 		{background: #AA88CC88; color:#FFF;}
+.timeline .content 	{background: #AA88CC88; color:#FFF;}
 
 #navi,
-.main_content			{border-color:#AA88CC;}
+.main_content		{border-color:#AA88CC;}
 
-.main-title				{text-align:left; margin-bottom: 10px; border-color: #AA88CC}
+.main-title			{text-align:left; margin-bottom: 10px; border-color: #AA88CC}
 
-.main-title:hover		{background:linear-gradient(90deg, #8866bb, #664499); filter: drop-shadow(0px 3px 2px #111);}
+.main-title:hover	{background:linear-gradient(90deg, #8866bb, #664499); filter: drop-shadow(0px 3px 2px #111);}
 
-.main-title a 			{color:#fff; display:block;}
+.main-title a 		{color:#fff; display:block;}
+
+#footer 			{background: radial-gradient(rgba(170,136,204,0.6),rgba(0,0,0,0) 55%);}
+
 
 /*Timeline*/
 .timeline {

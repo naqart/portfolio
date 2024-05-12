@@ -144,3 +144,14 @@ ul.boxes a, .boxes img 	{
 .box_4 .front a		{background:linear-gradient(45deg, #d18d2b, #ffca7f, #ffe9b3)}
 .box_5 .front a		{background:linear-gradient(45deg, #F7418F, #FC819E, #FEC7B4)}
 
+
+@media only screen and (min-device-width: 480px){
+.rollover {
+    width: 120px;
+    height:120px;
+	}
+}	
+
+
+
+

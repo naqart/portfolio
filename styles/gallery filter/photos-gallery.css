@@ -41,5 +41,5 @@
 @media only screen and (max-device-width: 480px){
 	#gallery-filter .filter {font-size: 15px;}
 	
-	#gallery-content img 	{width: 182px;}
+	#gallery-content img 	{width: 49%;}
 }

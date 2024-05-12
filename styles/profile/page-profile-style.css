@@ -186,8 +186,8 @@
 	border-radius: 8px;
 }
 
-/*MY-EXPERIENCE*/
-.my-experience li p {
+/*MY-CLIENTS*/
+.my-clients li p {
 	column-count:4;
 	-moz-column-count:4;
 	-webkit-column-count:4;
@@ -214,14 +214,17 @@
 	.main-title 			{font-size: 22px;}
 	
 	.timeline .time 		{width: 22%;}
-	.timeline .time span 	{font-size: 15px;}
-	.timeline .time-icon 	{width: 20px; height: 20px; box-shadow:0 0 0 5px; left: 96px;}
+	.timeline .time span 	{font-size: 12px;}
+	.timeline .time-icon 	{width: 20px; height: 20px; left: 21%; box-shadow:0 0 0 5px #AA88CC;}
 	
-	.timeline ul:before 	{left: 100px;}
+	.timeline ul:before 	{left: 22%;}
 	
-	.timeline .content h2 	{font-size: 18px;}
+	.timeline .content		{padding: 10px;}
+	.timeline .content h2 	{font-size: 16px;}
 	.timeline .content p 	{font-size: 15px;}
-
+	
+	/*Clients*/
+	.my-clients li p 		{font-size: 8px;}
 }
 
 

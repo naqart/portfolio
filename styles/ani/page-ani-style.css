@@ -12,10 +12,11 @@
 .video-content {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .view {
-   width: 330px;
+   width: 19%;
    height: auto;
    border: none;
    border-radius: 8px;

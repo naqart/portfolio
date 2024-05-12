@@ -7,7 +7,7 @@
 
 .main_content	 		{display: flex; justify-content: center; align-items: center;}
 
-.contact-content 		{display: flex;}
+.contact-content 		{display: flex; flex-wrap: wrap; justify-content: center;}
 
 .contact-ava {
 	width:auto;
@@ -41,7 +41,8 @@
 .contact-ava img		{transform:rotateY(25deg); transform-style: preserve-3d; width: 100%; outline:1px solid transparent; border:5px solid; border-radius: 10px;}
 .contact-ava .back img	{transform:rotateY(-25deg);}
 
-.contact-info 					{width:auto; padding:0px 0 0 50px; display: flex; flex-direction: column; justify-content: center}
+.contact-info 					{width:auto; padding:0px 0 0 40px; display: flex; flex-direction: column; justify-content: center}
+
 .contact-info .email .icon		{background:url(../../images/icon-email.png) no-repeat 0 0;}
 .contact-info .phone .icon		{background:url(../../images/icon-phone.png) no-repeat 0 0;}
 .contact-info .website .icon	{background:url(../../images/icon-website.png) no-repeat 0 0;}
@@ -58,3 +59,10 @@
 
 #footer {background: radial-gradient(rgba(255,211,102,0.6),rgba(0,0,0,0) 55%);}
 
+
+/*-------- FOR PHONE ---------*/
+@media only screen and (max-device-width: 480px){
+
+	.contact-ava 	{margin-bottom: 25px;}
+	.contact-info 	{padding: 0;}
+}

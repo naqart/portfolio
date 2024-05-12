@@ -213,20 +213,21 @@
 /*-------- FOR PHONE ---------*/
 @media only screen and (max-device-width: 480px){
 	
-	.main-title 			{font-size: 22px;}
+	.main-title 				{font-size: 22px;}
 	
-	.timeline .time 		{width: 22%;}
-	.timeline .time span 	{font-size: 12px;}
-	.timeline .time-icon 	{width: 20px; height: 20px; left: 21%; box-shadow:0 0 0 5px #AA88CC;}
+	.timeline .time 			{width: 22%;}
+	.timeline .time span 		{font-size: 12px;}
+	.timeline .time-icon 		{width: 20px; height: 20px; left: 20%; box-shadow:0 0 0 4px #AA88CC;}
 	
-	.timeline ul:before 	{left: 22%; width: 8px;}
+	.timeline ul:before 		{left: 22%; top: 30px; width: 6px;}
 	
-	.timeline .content		{padding: 10px;}
-	.timeline .content h2 	{font-size: 16px;}
-	.timeline .content p 	{font-size: 15px;}
+	.timeline .content			{padding: 10px;}
+	.timeline .content h2 		{font-size: 16px;}
+	.timeline .content p 		{font-size: 15px;}
+	.timeline .content:after 	{top: 10px;}
 	
 	/*Clients*/
-	.my-clients li p 		{font-size: 8px;}
+	.my-clients .content p 		{font-size: 9px;}
 }
 
 

@@ -7,11 +7,6 @@
 
 #gallery-filter	.view 			{transition: 0.3s}
 
-/*-------- FOR PHONE ---------*/
-@media only screen and (max-device-width: 480px){
-#gallery-filter .filter 		{padding:0 5px; font-size: 15px;}
-}
-
 
 /*-- GALLERY CONTENT --*/
 .video-content {
@@ -166,4 +161,14 @@
    -ms-transition-delay: 0.1s;
    transition-delay: 0.1s;
 }
-				
+
+
+/*-------- FOR PHONE ---------*/
+@media only screen and (max-device-width: 480px){
+	
+	#gallery-filter .filter 	{padding:0 5px; font-size: 15px;}
+	
+	.view 	{width: 190px;}
+}
+
+

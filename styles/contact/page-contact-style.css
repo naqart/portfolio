@@ -7,7 +7,7 @@
 
 .main_content	 		{display: flex; justify-content: center; align-items: center;}
 
-.contact-content 		{display: flex; flex-wrap: wrap; justify-content: center;}
+.contact-content 		{display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
 
 .contact-ava {
 	width:auto;

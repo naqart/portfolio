@@ -63,6 +63,6 @@
 /*-------- FOR PHONE ---------*/
 @media only screen and (max-device-width: 480px){
 
-	.contact-ava 	{margin-bottom: 25px;}
-	.contact-info 	{padding: 0;}
+	.contact-ava 	{margin: 25px 0;}
+	.contact-info 	{padding: 10px;}
 }

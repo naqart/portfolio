@@ -186,12 +186,6 @@
 	border-radius: 8px;
 }
 
-/*MY-CLIENTS*/
-.my-clients li p {
-	column-count:4;
-	-moz-column-count:4;
-	-webkit-column-count:4;
-}
 
 /*MY-SKILLS*/
 .my-skills .content h2,
@@ -205,6 +199,14 @@
 }
 .my-skills .content span:nth-child(3) {
 	width:32%;
+}
+
+
+/*MY-CLIENTS*/
+.my-clients li p {
+	column-count:4;
+	-moz-column-count:4;
+	-webkit-column-count:4;
 }
 
 

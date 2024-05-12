@@ -147,11 +147,10 @@ ul.boxes a, .boxes img 	{
 
 /*FOR PHONE*/
 @media only screen and (max-device-width: 480px){
-.rollover,
-.rollover .boxes img 	{
-    width: 150px;
-    height:150px;
-	font-size: 18px;
-	}
+	
+	.rollover,
+	.rollover img 		{width: 150px; height:150px; font-size: 18px; }
+	
+	.rollover .front a 	{text-align: center; padding-left: 0;}
 }	
 

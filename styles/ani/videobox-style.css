@@ -1,3 +1,19 @@
+/*-- GALLERY FILTER --*/
+#gallery-filter					{display: flex; margin-bottom: 15px;}
+#gallery-filter .filter 		{color: #ccc; padding:0 10px; margin-right: 10px; font-size: 21px; cursor:pointer;}
+#gallery-filter .filter-current {color: #77bbff;}
+#gallery-filter .filter-current,
+#gallery-filter .filter:hover 	{border-bottom: 1px solid #77bbff;}
+
+#gallery-filter	.view 			{transition: 0.3s}
+
+/*-------- FOR PHONE ---------*/
+@media only screen and (min-device-width: 480px){
+#gallery-filter .filter 		{padding:0 5px; font-size: 15px;}
+}
+
+
+/*-- GALLERY CONTENT --*/
 .video-content {
 	display: flex;
 	flex-wrap: wrap;
@@ -14,6 +30,7 @@
    margin-bottom:6px;
    margin-right: 6px;
    box-shadow:0 8px 1px -5px rgba(0,0,0,0.2);
+   transition: 0.3s;
 }
 .view:nth-child(3n+2) 	{}
 

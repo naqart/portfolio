@@ -44,7 +44,7 @@ a.section {
 }
 .section p {
 	font-size: 20px;
-	text-align:justify;
+	text-align:left;
 	color:#aaa;
 	margin: 10px 0;
 }
@@ -97,7 +97,6 @@ a.cbp-so-init figure {
 	transform: translateX(-80px);
 }
 
-
 /* Animated state */
 /* add you final states (transition) or your effects (animations) for each side */
 a.cbp-so-animate .slide-box {
@@ -114,3 +113,10 @@ a.cbp-so-animate .slide-box {
 	transition-delay: 0.2s;
 }
 */
+
+
+@media only screen and (min-device-width: 480px){
+	.section span 	{font-size: 20px;}
+	.section p 		{font-size: 16px;}
+	
+}

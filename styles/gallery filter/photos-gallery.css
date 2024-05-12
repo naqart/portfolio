@@ -27,13 +27,19 @@
 	width: 236px;
 	margin:0 3px 3px 0;
 	border-radius: 8px;
-	-webkit-transition: all 0.4s;
-	-moz-transition: all 0.4s;
-	-o-transition: all 0.4s;
-	transition: all 0.4s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 #gallery-content img:hover {
 	filter: brightness(65%)
 }
 
 
+/*-------- FOR PHONE ---------*/
+@media only screen and (min-device-width: 480px){
+	#gallery-filter .filter {font-size: 15px;}
+	
+	#gallery-content img 	{width: 182px;}
+}

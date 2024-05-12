@@ -28,3 +28,11 @@
 	color:#fff;
 }
 
+
+/*-------- FOR PHONE ---------*/
+@media only screen and (min-device-width: 480px){
+
+.grid-gallery a img 	{width: 182px;}
+
+}
+

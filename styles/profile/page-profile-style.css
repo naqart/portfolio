@@ -212,9 +212,7 @@
 
 /*-------- FOR PHONE ---------*/
 @media only screen and (max-device-width: 480px){
-	
-	.main-title 				{font-size: 22px;}
-	
+		
 	.timeline .time 			{width: 22%;}
 	.timeline .time span 		{font-size: 12px;}
 	.timeline .time-icon 		{width: 20px; height: 20px; left: 20%; box-shadow:0 0 0 4px #AA88CC;}

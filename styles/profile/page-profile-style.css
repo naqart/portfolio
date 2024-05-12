@@ -219,7 +219,7 @@
 	.timeline .time span 	{font-size: 12px;}
 	.timeline .time-icon 	{width: 20px; height: 20px; left: 21%; box-shadow:0 0 0 5px #AA88CC;}
 	
-	.timeline ul:before 	{left: 22%;}
+	.timeline ul:before 	{left: 22%; width: 8px;}
 	
 	.timeline .content		{padding: 10px;}
 	.timeline .content h2 	{font-size: 16px;}

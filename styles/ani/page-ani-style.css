@@ -55,7 +55,7 @@
    position: relative;
    font-family: system-ui;
    font-size: 18px;
-   padding:10px 20px 10px;
+   padding:10px 20px;
    background: rgba(0, 0, 0, 0.8);
    margin: 0;
    -webkit-transform: translateY(-100px);
@@ -169,7 +169,8 @@
 	
 	#gallery-filter .filter 	{padding:0 3px; font-size: 15px;}
 	
-	.view 	{width: 48%;}
+	.view 		{width: 48%;}
+	.view h2 	{font-size: 15px; padding: 8px 12px}
 }
 
 

@@ -49,7 +49,7 @@
 	transform: rotate(0deg)
 }
 
-.timeline .time		{width: 22%; max-width: 200px;}
+.timeline .time		{width: 20%; max-width: 200px;}
 
 /* The icons */
 .timeline .time-icon {
@@ -58,7 +58,7 @@
 	position: absolute;
 	background: none;
 	border-radius: 50%;
-	left: 180px;
+	left: 19.5%;
 	top: 8px;
 	box-shadow: 0 0 0 8px #AA88CC;
 }
@@ -87,7 +87,7 @@
 	top: 50px;
 	bottom: 0;
 	width: 10px;
-	left: 195px;
+	left: 21%;
 }
 .timeline .time span {
 	float:left;
@@ -194,19 +194,18 @@
 	width:100%;
 }
 .my-skills .content span {
-	width:34%;
+	width:35%;
 	float:left;
 }
 .my-skills .content span:nth-child(3) {
-	width:32%;
+	width:30%;
 }
 
 
 /*MY-CLIENTS*/
 .my-clients li p {
 	column-count:4;
-	-moz-column-count:4;
-	-webkit-column-count:4;
+	text-align: left;
 }
 
 

@@ -81,10 +81,10 @@
 	width: 0;
 	height: 0;
 	border-top: 22px solid transparent;
-	border-left: 34px solid #fff;
 	border-bottom: 22px solid transparent;   
+	border-left: 34px solid #fff;
 	cursor:pointer;
-	margin-top: 15px;
+	margin-top: 5%;
 }
 .view a.play:hover {
 	border-left-color: #111;
@@ -167,12 +167,15 @@
 /*-------- FOR PHONE ---------*/
 @media only screen and (max-device-width: 480px){
 	
-	#gallery-filter .filter 	{padding:0 3px; font-size: 15px;}
+	#gallery-filter .filter 	{padding:0 3px; font-size: 15px; text-align: center;}
 	
 	.view 		{width: 48%;}
-	.view h2 	{font-size: 15px; padding: 8px 10px}
+	.view h2 	{font-size: 13px; padding: 8px 10px}
 	
-	.view a.play 	{margin-top: 5px; border:15px none 15px 25px;}
+	.view a.play 	{
+		border-top: 16px solid transparent; 
+		border-bottom: 16px solid transparent; 
+		border-left: 28px solid #FFF;}
 }
 
 

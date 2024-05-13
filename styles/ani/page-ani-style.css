@@ -170,7 +170,9 @@
 	#gallery-filter .filter 	{padding:0 3px; font-size: 15px;}
 	
 	.view 		{width: 48%;}
-	.view h2 	{font-size: 15px; padding: 8px 12px}
+	.view h2 	{font-size: 15px; padding: 8px 10px}
+	
+	.view a.play 	{margin-top: 5px; border:15px none 15px 25px;}
 }
 
 

@@ -192,6 +192,7 @@
 .my-skills .content p {
 	display:inline-block;
 	width:100%;
+	text-align: left;
 }
 .my-skills .content span {
 	width:35%;
@@ -203,7 +204,7 @@
 
 
 /*MY-CLIENTS*/
-.my-clients li p {
+.my-clients .content p {
 	column-count:4;
 	text-align: left;
 }
@@ -223,9 +224,9 @@
 	.timeline .content p 		{font-size: 14px;}
 	.timeline .content:after 	{top: 10px;}
 	
-	.my-skills li:nth-child(2) .content p {text-align: left; font-size: 12px;}
+	.my-skills li:nth-child(2) .content p {font-size: 12px;}
 	
-	.my-clients .content p 		{font-size: 8px; text-align: left}
+	.my-clients .content p 		{font-size: 8px;}
 }
 
 

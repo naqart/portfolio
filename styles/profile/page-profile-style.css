@@ -224,7 +224,7 @@
 	.timeline .content p 		{font-size: 15px;}
 	.timeline .content:after 	{top: 10px;}
 	
-	.my-skills li:nth-child(2) .content {text-align: left; font-size: 12px;}
+	.my-skills li:nth-child(2) .content p {text-align: left; font-size: 12px;}
 	
 	.my-clients .content p 		{font-size: 8px; text-align: left}
 }

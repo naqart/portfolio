@@ -32,7 +32,8 @@
 /*-------- FOR PHONE ---------*/
 @media only screen and (max-device-width: 480px){
 
-.grid-gallery a img 	{width: 182px;}
+	.grid-gallery a.item 	{width: 50%}
+	.grid-gallery a img 	{width: auto;}
 
 }
 

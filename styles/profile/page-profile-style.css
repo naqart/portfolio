@@ -159,7 +159,7 @@
 }
 .my-self .content p:nth-child(3)  {
 	float:right;
-	width:36%;
+	width:35%;
 	margin: 15px 0;
 	perspective:600px;
 }

@@ -103,7 +103,7 @@
     top: calc(50% - var(--circle-size) / 2 + 0);
     left: calc(50% - var(--circle-size) / 2 - 0);
 
-    transform-origin: calc(50% + 40%);
+    transform-origin: calc(50% + 25%);
     animation: moveInCircle 25s linear infinite;
 
     opacity: 1;

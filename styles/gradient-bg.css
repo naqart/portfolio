@@ -3,7 +3,7 @@
   --color2: 145, 88, 255;
   --color3: 255, 85, 155;
   --color-interactive: 140, 100, 255;
-  --circle-size: 40%;
+  --circle-size: 60%;
   --blending: hard-light;
 }
 
@@ -87,7 +87,7 @@
     top: calc(50% - var(--circle-size) / 2);
     left: calc(50% - var(--circle-size) / 2);
 
-    transform-origin: calc(50% - 400px);
+    transform-origin: calc(50% - 20%);
     animation: moveInCircle 15s reverse infinite;
 
     opacity: 1;
@@ -100,10 +100,10 @@
 
     width: var(--circle-size);
     height: var(--circle-size);
-    top: calc(50% - var(--circle-size) / 2 + 200px);
-    left: calc(50% - var(--circle-size) / 2 - 0px);
+    top: calc(50% - var(--circle-size) / 2 + 0);
+    left: calc(50% - var(--circle-size) / 2 - 0);
 
-    transform-origin: calc(50% + 400px);
+    transform-origin: calc(50% + 40%);
     animation: moveInCircle 25s linear infinite;
 
     opacity: 1;

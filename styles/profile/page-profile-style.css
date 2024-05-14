@@ -159,7 +159,8 @@
 }
 .my-self .content p:nth-child(3)  {
 	float:right;
-	width:32%;
+	width:36%;
+	margin: 15px 0;
 	perspective:600px;
 }
 .my-self .content p:nth-child(4)  {
@@ -184,6 +185,7 @@
 	transform:rotateY(-20deg);
 	outline:1px solid transparent;
 	border-radius: 8px;
+	border: 2px solid #FFF;
 }
 
 

@@ -70,11 +70,11 @@ a img 			{border:none}
 				transition:max-height 0.4s linear;
 				}
 
-.portfolio-nav:hover ul,
-.profile-nav:hover ul 		{max-height:40px; /* Increase when adding more dropdown items */}
+#navi:hover .portfolio-nav ul,
+#navi:hover .profile-nav ul 	{max-height:40px; /* Increase when adding more dropdown items */}
 
-#navi ul li					{width: 20%; max-width:120px;}
-#navi ul li a				{line-height:30px; display:block; align-content: center; padding: 2px 0; border-radius: 20px; font-size:18px; background:none !important;}
+#navi ul li			{width: 20%; max-width:120px;}
+#navi ul li a		{line-height:30px; display:block; align-content: center; padding: 2px 0; border-radius: 20px; font-size:18px; background:none !important;}
 
 .portfolio-pages #navi ul li a:hover	{background-color:rgba(119,170,255,0.75) !important;}
 .profile-page #navi ul li a:hover 		{background-color:rgba(170,136,204,0.75) !important;}

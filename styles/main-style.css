@@ -73,7 +73,9 @@ a img 			{border:none}
 
 #navi ul li						{width: 20%; max-width:120px;}
 #navi ul li a					{line-height:30px; display:block; align-content: center; padding: 2px 0; border-radius: 20px; font-size:18px; background:none !important;}
+
 .portfolio-nav ul li a:hover	{background-color:rgba(119,170,255,0.75) !important; }
+.profile-page ul li a:hover 	{background-color:rgba(170,136,204,0.75) !important; }
 
 .portfolio-pages .portfolio-nav ul 	{overflow: visible;}
 

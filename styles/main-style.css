@@ -37,7 +37,7 @@ a img 			{border:none}
 				-moz-transition: all 0.3s;
 				transition: all 0.3s; }
 
-.menu a:hover 	{color: #FFF;}
+.menu a:hover 	{color: #FFF; text-shadow:0 0 3px #fff;}
 
 #navi .portfolio-nav a 		{background-image:linear-gradient(transparent 50%, #77AAFF88 50%);}
 #navi .profile-nav a 		{background-image:linear-gradient(transparent 50%, #AA88CC88 50%);}
@@ -73,7 +73,7 @@ a img 			{border:none}
 
 .portfolio-nav ul li				{width: 20%; max-width:120px;}
 .portfolio-nav ul li a				{line-height:30px; display:block; align-content: center; padding: 2px 0; font-size:18px; background:none !important;}
-.portfolio-nav ul li a:hover		{background-color:rgba(119,170,255,0.75) !important; text-shadow:0 0 3px #fff; border-radius: 20px;}
+.portfolio-nav ul li a:hover		{background-color:rgba(119,170,255,0.75) !important; border-radius: 20px;}
 
 .portfolio-pages .portfolio-nav ul 	{overflow: visible;}
 

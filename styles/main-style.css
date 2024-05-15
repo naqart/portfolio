@@ -69,6 +69,7 @@ a img 			{border:none}
 				-o-transition:max-height 0.4s linear;
 				transition:max-height 0.4s linear;
 				}
+
 .portfolio-nav:hover ul,
 .profile-nav:hover ul 		{max-height:40px; /* Increase when adding more dropdown items */}
 

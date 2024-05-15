@@ -58,7 +58,7 @@ a img 			{border:none}
 
 
 /*MENU PORTFOLIO 2nd level*/
-#navi ul		{position:absolute; z-index:9; width: 96%; max-width:600px; text-align:center; display: flex; margin-top: 4px;
+.portfolio-nav ul		{position:absolute; z-index:9; width: 96%; max-width:600px; text-align:center; display: flex; margin-top: 4px;
 	
 				/* This is important for the show/hide CSS animation */
 				max-height:0px;

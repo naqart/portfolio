@@ -37,6 +37,8 @@ a img 			{border:none}
 				-moz-transition: all 0.3s;
 				transition: all 0.3s; }
 
+.menu a:hover 	{color: #FFF;}
+
 #navi .portfolio-nav a 		{background-image:linear-gradient(transparent 50%, #77AAFF88 50%);}
 #navi .profile-nav a 		{background-image:linear-gradient(transparent 50%, #AA88CC88 50%);}
 #navi .others-nav a 		{background-image:linear-gradient(transparent 50%, #E4466688 50%);}

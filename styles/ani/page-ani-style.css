@@ -165,7 +165,7 @@
 }
 
 
-/*-------- FOR PHONE ---------*/
+/*-------- FOR MOBILE ---------*/
 @media only screen and (max-device-width: 480px){
 	
 	#gallery-filter .filter 	{padding:0 3px; font-size: 15px;}
@@ -179,4 +179,7 @@
 		border-left: 28px solid #FFF;}
 }
 
+@media only screen and (max-device-width: 1024px){
+	.view h2 	{font-size: 13px; padding: 8px 10px;}
+}
 

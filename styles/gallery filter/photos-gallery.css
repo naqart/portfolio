@@ -17,7 +17,7 @@
 #gallery-filter .filter-current {color: #77bbff;}
 
 #gallery-filter .filter-current,
-#gallery-filter .filter:hover 	{border-bottom: 1px solid #77bbff;}
+#gallery-filter .filter:hover 	{border-bottom: 1px solid #77bbff; text-shadow:0 0 3px #fff;}
 
 /*PHOTOS*/
 #gallery-content {

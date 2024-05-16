@@ -212,7 +212,7 @@
 }
 
 
-/*-------- FOR PHONE ---------*/
+/*-------- FOR MOBILE ---------*/
 @media only screen and (max-device-width: 480px){
 		
 	.timeline .time 			{padding: 5px;}

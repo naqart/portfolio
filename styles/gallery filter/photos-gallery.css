@@ -37,7 +37,7 @@
 }
 
 
-/*-------- FOR PHONE ---------*/
+/*-------- FOR MOBILE ---------*/
 @media only screen and (max-device-width: 480px){
 	#gallery-filter .filter {font-size: 15px; padding: 0 4px;}
 	

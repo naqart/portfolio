@@ -60,7 +60,7 @@
 #footer {background: radial-gradient(rgba(255,211,102,0.6),rgba(0,0,0,0) 55%);}
 
 
-/*-------- FOR PHONE ---------*/
+/*-------- FOR MOBILE ---------*/
 @media only screen and (max-device-width: 480px){
 
 	.contact-ava 	{margin: 25px 0;}

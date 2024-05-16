@@ -112,7 +112,7 @@ a img 			{border:none}
 .portfolio-pages #footer 	{background: radial-gradient(rgba(119,170,255,0.6),rgba(0,17,82,0) 55%);}
 
 
-/*--- FOR PHONE ---*/
+/*--- FOR MOBILE ---*/
 @media only screen and (max-device-width: 480px){
 	
 	#navi 				{padding: 0 10px;}

@@ -69,10 +69,14 @@ a img 			{border:none}
 					-moz-transition:max-height 0.4s linear;
 					-o-transition:max-height 0.4s linear;
 					transition:max-height 0.4s linear;
-					}
+}
+.profile-nav ul 	{max-width: 150px;}
 
 .portfolio-nav:hover ul,
 .profile-nav:hover ul 	{max-height:40px; /* Increase when adding more dropdown items */}
+
+.portfolio-nav:hover ul ~ .profile-nav ul,
+.profile-nav:hover ul ~ .portfolio-nav ul 	{max-height: 0;} /*showing 1 sub menu at a time*/
 
 .portfolio-nav ul li	{width: 20%; max-width: 120px;}
 .profile-nav ul li 		{width: 100%; max-width: 150px;}

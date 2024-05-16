@@ -6,6 +6,7 @@
 .timeline ul:before,
 .timeline .content 	{background: #AA88CC88; color:#FFF;}
 
+#profile-vie-page .profile-nav ul,
 #profile-eng-page .profile-nav ul 	{overflow: visible;}
 
 #navi,

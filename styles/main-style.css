@@ -1,17 +1,13 @@
 /* CSS Document */
 html	{overflow-y:scroll;}
 
-body	{background:radial-gradient(#000 35%, #000033); margin:0 auto; width:100%; font-family:Myriad "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-
-		-webkit-transition-property: background-color;
-	   	-webkit-transition-duration: 600ms;
-		-moz-transition-property: background-color;
-		-moz-transition-duration: 600ms;
+body	{background:radial-gradient(#000 35%, #000033); margin:0 auto; width:100%; 
+		font-family:Myriad "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 		transition-property: background-color;
 		transition-duration: 600ms;
 }
 
-div				{box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box;}
+div				{box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; -o-box-sizing:border-box; -ms-box-sizing:border-box;}
 ul, li			{padding:0; margin:0; list-style:none}
 a				{text-decoration:none;}
 img				{outline:1px solid transparent;}
@@ -64,10 +60,6 @@ a img 			{border:none}
 					/* This is important for the show/hide CSS animation */
 					max-height:0px;
 					overflow:hidden;
-
-					-webkit-transition:max-height 0.4s linear;
-					-moz-transition:max-height 0.4s linear;
-					-o-transition:max-height 0.4s linear;
 					transition:max-height 0.4s linear;
 }
 .profile-nav ul 	{max-width: 150px;}

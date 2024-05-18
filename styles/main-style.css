@@ -61,21 +61,18 @@ a img 			{border:none}
 					overflow:hidden;
 					transition:max-height 0.4s linear;
 }
-
 .portfolio-nav:hover ul,
 .profile-nav:hover ul 	{max-height:40px; /* Increase when adding more dropdown items */}
 
 .profile-nav ul 		{max-width: 150px;}
 
+.portfolio-nav ul li:first-child 	{border-radius:0 0 0 20px}
+.portfolio-nav ul li:last-child		{border-radius:0 0 20px}
+
+.portfolio-nav ul li	{width: 20%; max-width: 120px; background: #77AAFF44;}
+.profile-nav ul li 		{width: 100%; max-width: 150px; background: #AA88CC44; border-radius:0 0 20px 20px}
+
 #navi ul li 			{height: fit-content;}
-#navi ul li:first-child {border-radius:0 0 0 20px}
-#navi ul li:last-child	{border-radius:0 0 20px}
-
-.portfolio-nav ul li 	{background: #77AAFF44;}
-.profile-nav ul li 		{background: #AA88CC44;}
-
-.portfolio-nav ul li	{width: 20%; max-width: 120px;}
-.profile-nav ul li 		{width: 100%; max-width: 150px;}
 #navi ul li a			{line-height:30px; display:block; align-content: center; padding: 2px 0; border-radius: 20px; font-size:18px; background:none !important;}
 
 #navi .portfolio-nav ul li a:hover	{background-color:rgba(119,170,255,0.75) !important;}

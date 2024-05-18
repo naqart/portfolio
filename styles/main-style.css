@@ -67,9 +67,12 @@ a img 			{border:none}
 
 .profile-nav ul 		{max-width: 150px;}
 
-#navi ul li 			{height: fit-content; background: #77AAFF44;}
+#navi ul li 			{height: fit-content;}
 #navi ul li:first-child {border-radius:0 0 0 20px}
 #navi ul li:last-child	{border-radius:0 0 20px}
+
+.portfolio-nav ul li 	{background: #77AAFF44;}
+.profile-nav ul li 		{background: #77AAFF44;}
 
 .portfolio-nav ul li	{width: 20%; max-width: 120px;}
 .profile-nav ul li 		{width: 100%; max-width: 150px;}

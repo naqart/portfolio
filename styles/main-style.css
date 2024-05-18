@@ -113,8 +113,8 @@ a img 			{border:none}
 	#navi 					{padding: 0 10px;}
 	.menu a 				{font-size: 20px;}
 		
-	.portfolio-nav ul li 	{width: auto; padding: 4px;}
-	.profile-nav ul li 		{max-width: 86px; padding: 2px;}
+	.portfolio-nav ul li 	{width: auto; padding:0 3px;}
+	.profile-nav ul li 		{max-width: 86px;}
 
 	#navi ul li a 			{font-size: 15px;}	
 

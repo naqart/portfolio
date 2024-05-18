@@ -61,11 +61,15 @@ a img 			{border:none}
 					overflow:hidden;
 					transition:max-height 0.4s linear;
 }
-.profile-nav ul 	{max-width: 150px;}
 
 .portfolio-nav:hover ul,
 .profile-nav:hover ul 	{max-height:40px; /* Increase when adding more dropdown items */}
 
+.profile-nav ul 		{max-width: 150px;}
+
+#navi ul li 					{height: fit-content; background: #77AAFF44;}
+#navi ul li:nth-child(first) 	{border-radius:0 0 0 20px}
+#navi ul li:nth-child(last) 	{border-radius:0 0 20px}
 
 .portfolio-nav ul li	{width: 20%; max-width: 120px;}
 .profile-nav ul li 		{width: 100%; max-width: 150px;}

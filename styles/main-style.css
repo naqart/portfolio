@@ -84,7 +84,7 @@ a img 			{border:none}
 #designs-page .portfolio-nav ul li:nth-child(2) a,
 #illustrations-page .portfolio-nav ul li:nth-child(3) a,
 #storyboards-page .portfolio-nav ul li:nth-child(4) a,
-#three-d-page .portfolio-nav ul li:nth-child(5) a 		{background-color:rgba(119,170,255,0.35) !important; border-radius: 20px; color:#FFF;}
+#three-d-page .portfolio-nav ul li:nth-child(5) a 		{background-color:rgba(1,1,1,0.35) !important; border-radius: 20px; color:#FFF;}
 
 .portfolio-pages .portfolio-nav:hover ul ~ .portfolio-pages .profile-nav ul,
 .profile-page .profile-nav:hover ul ~ .profile-page .portfolio-nav ul 	{overflow: hidden} /*showing 1 sub menu at a time*/

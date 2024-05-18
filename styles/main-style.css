@@ -44,13 +44,17 @@ a img 			{border:none}
 #navi a:hover		{color:#FFF; background-position: 0 100%;}
 
 
-/*--- MENU PORTFOLIO ---*/
+/*--- MENU PORTFOLIO & PROFILE ---*/
 .portfolio-pages #navi,
-.portfolio-pages .main-title  	{border-color:#77AAFF !important;}
+.portfolio-pages .main-title  			{border-color:#77AAFF !important;}
 
 .portfolio-pages #navi .portfolio-nav a,
 .main_content_portfolio .main-title		{background: #77AAFF88;}
 
+#profile-vie-page .profile-nav ul,
+#profile-eng-page .profile-nav ul 		{overflow: visible;}
+
+#profile-eng-page .profile-nav ul li a 	{background-color:rgba(170,136,204,0.6) !important; border-radius: 20px; color:#FFF;}
 
 /*--- MENU 2ND LEVEL ---*/
 .portfolio-nav ul,
@@ -88,11 +92,6 @@ a img 			{border:none}
 
 .portfolio-nav:hover ~ .profile-nav ul,
 .profile-nav:hover ~ .portfolio-nav ul 	{overflow: hidden !important;} /*showing 1 sub menu at a time*/
-
-#profile-vie-page .profile-nav ul,
-#profile-eng-page .profile-nav ul 		{overflow: visible;}
-
-#profile-eng-page .profile-nav ul li a 	{background-color:rgba(170,136,204,0.6) !important; border-radius: 20px; color:#FFF;}
 
 
 /*--- MAIN BODY ---*/

@@ -87,8 +87,8 @@
 }
 .bubbles span {
 	position: relative;
-	width: 6px;
-	height: 6px;
+	width: 5px;
+	height: 5px;
 	margin: 0 5px;
 	background: #A685E2;
 	border-radius: 50%;

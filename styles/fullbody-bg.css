@@ -14,9 +14,10 @@
   top: 0;
   left: 0;
 }
-.portfolio-pages .fullbody-bg, #others-page .fullbody-bg{
-	overflow: visible;
-}
+.portfolio-pages .fullbody-bg .gradients-container, 
+.profile-pages .fullbody-bg .gradients-container, 
+#others-page .fullbody-bg .gradients-container 		{overflow: visible;}
+
 .gradients-container {
 	position: absolute;
 	filter: blur(30px);

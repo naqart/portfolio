@@ -1,0 +1,105 @@
+:root {
+  --color1: 88, 111, 222;
+  --color2: 145, 88, 255;
+  --color3: 255, 85, 155;
+  --color-interactive: 140, 100, 255;
+  --circle-size: 100%;
+  --blending: hard-light;
+}
+
+.fullbody-bg {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.portfolio-pages .fullbody-bg, #others-page .fullbody-bg{
+	overflow: visible;
+}
+.gradients-container {
+	position: absolute;
+	filter: blur(30px);
+    width: 100%;
+    height: 100%;
+	opacity: 0.5;
+}
+.g1{
+    position: absolute;
+    background: radial-gradient(circle at center, rgba(var(--color1), 0.8) 0, rgba(var(--color1), 0) 30%) no-repeat;
+    mix-blend-mode: var(--blending);
+    width: var(--circle-size);
+    height: var(--circle-size);
+    top: calc(50% - var(--circle-size) / 2);
+    left: calc(50% - var(--circle-size) / 2);
+    transform-origin: center center;
+    animation: moveVertical 20s ease infinite;
+}
+.g2{
+    position: absolute;
+    background: radial-gradient(circle at center, rgba(var(--color2), 0.8) 0, rgba(var(--color2), 0) 30%) no-repeat;
+    mix-blend-mode: var(--blending);
+    width: var(--circle-size);
+    height: var(--circle-size);
+    top: calc(50% - var(--circle-size) / 2);
+    left: calc(50% - var(--circle-size) / 2);
+    transform-origin: calc(50% - 10%);
+    animation: moveInCircle 15s reverse infinite;
+}
+.g3{
+    position: absolute;
+    background: radial-gradient(circle at center, rgba(var(--color3), 0.8) 0, rgba(var(--color3), 0) 30%) no-repeat;
+    mix-blend-mode: var(--blending);
+    width: var(--circle-size);
+    height: var(--circle-size);
+    top: calc(50% - var(--circle-size) / 2 + 0);
+    left: calc(50% - var(--circle-size) / 2 - 0);
+    transform-origin: calc(50% + 25%);
+    animation: moveInCircle 25s linear infinite;
+}
+@keyframes moveInCircle {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+}
+@keyframes moveVertical {
+  0% {transform: translateY(-50%);}
+  50% {transform: translateY(50%);}
+  100% {transform: translateY(-50%);}
+}
+@keyframes moveHorizontal {
+  0% {transform: translateX(-50%) translateY(-10%);}
+  50% {transform: translateX(100%) translateY(10%);}
+  100% {transform: translateX(-50%) translateY(-10%);}
+}
+
+
+/*BUBBLES FLOW*/
+.bubbles {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	filter: blur(2px);
+	opacity: 0.5;
+}
+.bubbles span {
+	position: relative;
+	width: 6px;
+	height: 6px;
+	margin: 0 5px;
+	background: #A685E2;
+	border-radius: 50%;
+	box-shadow: 0 0 2px 8px #A685E255, 0 0 10px #A685E2;
+	animation: animate 15s linear infinite;
+	animation-duration: calc(120s / var(--i));
+}
+.bubbles span:nth-child(even) {
+	background: #81F5FF;
+	box-shadow: 0 0 2px 8px #81F5FF55, 0 0 10px #81F5FF;
+}
+@keyframes animate{
+	0%	{transform: translateY(100vh) scale(0.25)}
+	100%{transform: translateY(-10vh) scale(1)}
+}
+

@@ -51,11 +51,6 @@ a img 			{border:none}
 .portfolio-pages #navi .portfolio-nav a,
 .main_content_portfolio .main-title		{background: #77AAFF88;}
 
-#profile-vie-page .profile-nav ul,
-#profile-eng-page .profile-nav ul 		{overflow: visible;}
-
-#profile-eng-page .profile-nav ul li a 	{background-color:rgba(170,136,204,0.6) !important; border-radius: 20px; color:#FFF;}
-
 /*--- MENU 2ND LEVEL ---*/
 .portfolio-nav ul,
 .profile-nav ul 	{position:absolute; z-index:9; width: 96%; max-width:600px; text-align:center; display: flex; margin-top: 4px;
@@ -83,7 +78,11 @@ a img 			{border:none}
 #navi .portfolio-nav ul li a:hover	{background-color:rgba(119,170,255,0.75) !important;}
 #navi .profile-nav ul li a:hover 	{background-color:rgba(170,136,204,0.75) !important;}
 
-.portfolio-pages .portfolio-nav ul 	{overflow: visible;}
+.portfolio-pages .portfolio-nav ul,
+#profile-vie-page .profile-nav ul,
+#profile-eng-page .profile-nav ul 		{overflow: visible;}
+
+#profile-eng-page .profile-nav ul li a 	{background-color:rgba(170,136,204,0.6) !important; border-radius: 20px; color:#FFF;}
 
 #animations-page .portfolio-nav ul li:nth-child(1) a,
 #designs-page .portfolio-nav ul li:nth-child(2) a,

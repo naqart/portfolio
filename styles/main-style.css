@@ -95,7 +95,6 @@ a img 			{border:none}
 .portfolio-nav:hover ~ .profile-nav ul {overflow: hidden !important;} /*showing 1 sub menu at a time*/
 
 
-
 /*--- MAIN BODY ---*/
 #main_body		{width:100%;}
 

@@ -60,11 +60,12 @@ a img 			{border:none}
 					overflow:hidden;
 					transition:max-height 0.4s linear;
 }
+.portfolio-pages .profile-nav:hover ul 	{max-height: 0;} /*not show profile 2nd menu*/
+
 .portfolio-nav:hover ul,
 .profile-nav:hover ul,
 #portfolio-page .portfolio-nav:hover ul {max-height:40px; /* Increase when adding more dropdown items */}
 
-.portfolio-pages .profile-nav:hover ul 	{max-height: 0;} /*not show profile 2nd menu*/
 
 .profile-nav ul 		{max-width: 150px;}
 

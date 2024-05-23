@@ -60,8 +60,7 @@ a img 			{border:none}
 					overflow:hidden;
 					transition:max-height 0.4s linear;
 }
-.portfolio-nav:hover ul,
-.profile-nav:hover ul 	{max-height:40px; /* Increase when adding more dropdown items */}
+.portfolio-nav:hover ul {max-height:40px; /* Increase when adding more dropdown items */}
 
 .profile-nav ul 		{max-width: 150px;}
 

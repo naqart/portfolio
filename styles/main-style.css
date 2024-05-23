@@ -64,7 +64,7 @@ a img 			{border:none}
 
 .portfolio-nav:hover ul,
 .profile-nav:hover ul,
-#portfolio-page .portfolio-nav:hover ul {max-height:40px; /* Increase when adding more dropdown items */}
+#portfolio-page .profile-nav:hover ul 	{max-height:40px; /* Increase when adding more dropdown items */}
 
 
 .profile-nav ul 		{max-width: 150px;}
@@ -95,7 +95,6 @@ a img 			{border:none}
 #three-d-page .portfolio-nav ul li:nth-child(5) a 		{background-color:rgba(1,1,1,0.35) !important; color:#FFF;}
 
 .portfolio-nav:hover ~ .profile-nav ul {overflow: hidden !important;} /*showing 1 sub menu at a time*/
-
 
 /*--- MAIN BODY ---*/
 #main_body		{width:100%;}

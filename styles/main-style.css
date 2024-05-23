@@ -60,7 +60,10 @@ a img 			{border:none}
 					overflow:hidden;
 					transition:max-height 0.4s linear;
 }
-.portfolio-nav:hover ul {max-height:40px; /* Increase when adding more dropdown items */}
+.portfolio-nav:hover ul,
+.profile-nav:hover ul 	{max-height:40px; /* Increase when adding more dropdown items */}
+
+.portfolio-pages .profile-nav:hover ul {max-height: 0;} /*not show profile 2nd menu*/
 
 .profile-nav ul 		{max-width: 150px;}
 
@@ -89,8 +92,8 @@ a img 			{border:none}
 #storyboards-page .portfolio-nav ul li:nth-child(4) a,
 #three-d-page .portfolio-nav ul li:nth-child(5) a 		{background-color:rgba(1,1,1,0.35) !important; color:#FFF;}
 
-.portfolio-nav:hover ~ .profile-nav ul,
-.profile-nav:hover ~ .portfolio-nav ul 	{overflow: hidden !important;} /*showing 1 sub menu at a time*/
+.portfolio-nav:hover ~ .profile-nav ul {overflow: hidden !important;} /*showing 1 sub menu at a time*/
+
 
 
 /*--- MAIN BODY ---*/

@@ -86,13 +86,14 @@ a img 			{border:none}
 #profile-vie-page .profile-nav ul,
 #profile-eng-page .profile-nav ul 		{overflow: visible;}
 
-#profile-eng-page .profile-nav ul li a 	{background-color:rgba(170,136,204,0.6) !important; border-radius: 20px; color:#FFF;}
+#profile-eng-page .profile-nav ul li a 	{border-radius: 20px; color:#FFF;}
 
 #animations-page .portfolio-nav ul li:nth-child(1) a,
 #designs-page .portfolio-nav ul li:nth-child(2) a,
 #illustrations-page .portfolio-nav ul li:nth-child(3) a,
 #storyboards-page .portfolio-nav ul li:nth-child(4) a,
-#three-d-page .portfolio-nav ul li:nth-child(5) a 		{background-color:rgba(1,1,1,0.35) !important; color:#FFF;}
+#three-d-page .portfolio-nav ul li:nth-child(5) a,
+#profile-eng-page .profile-nav ul li a 				{background-color:rgba(1,1,1,0.35) !important; color:#FFF;}
 
 .portfolio-nav:hover ~ .profile-nav ul {overflow: hidden !important;} /*showing 1 sub menu at a time*/
 

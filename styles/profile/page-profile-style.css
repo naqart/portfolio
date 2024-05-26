@@ -161,6 +161,9 @@
 	margin: 15px 0;
 	perspective:600px;
 }
+#profile-eng-page .my-self .content p:nth-child(3) {
+	width: 39%;
+}
 .my-self .content p:nth-child(4)  {
 	text-align:justify;
 	margin-top:90px;

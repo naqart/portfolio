@@ -74,7 +74,8 @@ a.section {
 }
 
 .section figure {
-	width: 280px;
+	width: auto;
+	max-width: 270px;
 	height: fit-content;
 	margin-right: 20px;
 	margin-bottom:20px;

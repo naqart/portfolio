@@ -72,7 +72,6 @@ a.section {
 	transition: transform 0.5s, opacity 0.5s;
 }
 .section figure {
-	width: auto;
 	max-width: 270px;
 	height: fit-content;
 	margin-right: 20px;
@@ -80,7 +79,6 @@ a.section {
 	border-radius: 8px;
 }
 .section article {
-	width: auto;
 	max-width: 230px;
 }
 

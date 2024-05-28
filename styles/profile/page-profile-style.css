@@ -93,7 +93,7 @@
 	margin-top:12px;
 	display: block;
 	text-align: right;
-	font-size: 19px;
+	font-size: 1.2em;
 	font-family: system-ui;
 }
 
@@ -127,7 +127,7 @@
 	position: relative;
 }
 .timeline .content h2 {
-	font-size:24px;
+	font-size:1.5em;
 	font-weight:400;
 	font-family: system-ui;
 	margin:0 0 10px;
@@ -136,7 +136,7 @@
 }
 .timeline .content p {
 	margin:0;
-	font-size:18px;
+	font-size:1.1em;
 	font-family: system-ui;
 	line-height:1.8;
 	text-align:justify;
@@ -215,23 +215,23 @@
 @media only screen and (max-device-width: 480px){
 		
 	.timeline .time 			{padding: 5px;}
-	.timeline .time span 		{font-size: 12px; margin-top: 16px;}
+	.timeline .time span 		{font-size: 0.75em; margin-top: 16px;}
 	.timeline .time-icon 		{width: 15px; height: 15px; top: 12px; box-shadow:0 0 0 4px #AA88CC;}
 	
 	.timeline ul:before 		{top: 28px; left: 20.7%; width: 6px;}
 	
 	.timeline .content			{padding: 10px;}
-	.timeline .content h2 		{font-size: 16px;}
-	.timeline .content p 		{font-size: 14px;}
+	.timeline .content h2 		{font-size: 1em;}
+	.timeline .content p 		{font-size: 0.86em;}
 	.timeline .content:after 	{top: 10px;}
 	
 	.my-self .time p span:nth-child(3) 		{margin-top: 18px;}
 	.my-self .content p:nth-child(3) 		{width: 30%; margin: 0;}
 	.my-self .content p:nth-child(4) 		{margin-top: 70px;}
 	
-	.my-skills li:nth-child(2) .content p 	{font-size: 12px;}
+	.my-skills li:nth-child(2) .content p 	{font-size: 0.75em;}
 	
-	.my-clients .content p 		{font-size: 8px;}
+	.my-clients .content p 		{font-size: 0.5em;}
 }
 
 

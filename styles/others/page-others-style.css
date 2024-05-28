@@ -16,7 +16,6 @@
 	overflow: hidden;
 	display: flex;
 	flex-wrap: wrap;
-	flex-wrap: wrap;
 }
 a.section {
 	margin:25px auto 0;
@@ -43,7 +42,7 @@ a.section {
 	color:#E44666;
 }
 .section p {
-	font-size: 20px;
+	font-size: 2.5vmin;
 	text-align:left;
 	color:#aaa;
 	margin: 10px 0;
@@ -117,6 +116,5 @@ a.cbp-so-animate .slide-box {
 
 /*--- FOR MOBILE ---*/
 @media only screen and (max-device-width: 480px){
-	.section p 		{font-size: 16px;}
 	
 }

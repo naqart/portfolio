@@ -121,7 +121,7 @@ a img 			{border:none}
 @media only screen and (max-device-width: 480px){
 	
 	#navi 			{padding: 0 10px;}
-
+	.menu a 		{font-size: 1.25em;}
 		
 	.portfolio-nav ul li 				{width: auto;}
 	.portfolio-nav ul li:first-child 	{border-radius:0 0 0 10px}
@@ -130,9 +130,9 @@ a img 			{border:none}
 	.profile-nav ul 		{width: 24%;}
 	.profile-nav ul li 		{border-radius:0 0 10px 10px;}
 
-	#navi ul li a 			{padding: 2px 4px; border-radius: 10px !important;}	
+	#navi ul li a 			{font-size: 1em; padding: 2px 4px; border-radius: 10px !important;}	
 	
-	.main-title 	{font-size: ;}
+	.main-title 	{font-size: 1.5em;}
 	.main_content 	{padding: 10px;}
 	
 	#footer ul 		{max-width: 360px;}

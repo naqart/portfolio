@@ -53,7 +53,7 @@
 .contact-info div:hover a,
 .contact-info div:hover span	{color: #FFD366}
 
-.contact-info span				{font-size:20px; color:#ccc; padding-left:20px; border-left:3px solid;}
+.contact-info span				{font-size:1.25em; color:#ccc; padding-left:20px; border-left:3px solid;}
 .contact-info span a			{color:#ccc;}
 
 

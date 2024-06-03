@@ -24,7 +24,7 @@ a img 			{border:none}
 /*--- TOP ---*/
 #top			{width:100%;}			
 #logo			{margin:20px auto; text-align: center;}
-#logo a			{font-size:4em; color:#EEE;}
+#logo a			{font-size:4em; color:#EEE; user-select: none;}
 
 /*--- NAVI ---*/
 #navi			{width: 95%; max-width:600px; height: 41px; display: flex; margin:0 auto; padding:0 50px; border-top:1px solid; border-bottom:1px solid;}

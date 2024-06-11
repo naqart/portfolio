@@ -30,7 +30,7 @@
 /*-------- FOR MOBILE ---------*/
 @media only screen and (max-device-width: 480px){
 	
-	#gallery-filter .filter {font-size: 0.8em; padding: 0 4px;}
+	#gallery-filter .filter {font-size: 1em; padding: 0 4px;}
 	
 	#gallery-content img 	{width: 49%;}
 }

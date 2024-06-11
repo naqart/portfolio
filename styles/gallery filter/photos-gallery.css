@@ -32,5 +32,7 @@
 	
 	#gallery-filter .filter {font-size: 1em; padding: 0 4px;}
 	
+	#gallery-filter .filter-current 	{border-radius: 8px;}
+
 	#gallery-content img 	{width: 49%;}
 }

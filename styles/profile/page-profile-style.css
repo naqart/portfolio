@@ -25,7 +25,7 @@
 	display:none;
 }
 
-.main-title a .arrow		{float:right; position: relative; width: 10px; height: 10px; top:5px;}
+.main-title a .arrow		{float:right; position: relative; width: 10px; height: 10px; top:5px; transform: rotate(-90deg)}
 .main-title a .arrow:before,
 .main-title a .arrow:after	{
 	position: absolute;
@@ -44,8 +44,8 @@
 	transform: rotate(45deg);
 	transform-origin: 100% 100%;
 }
-.main-title a .arrow:active {
-	transform: rotate(0deg)
+.main-title.active a .arrow {
+	transform: rotate(0);
 }
 
 .timeline .time		{width: 20%; max-width: 200px;}

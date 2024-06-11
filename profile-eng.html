@@ -97,7 +97,7 @@
 
 <!--MYSELF-->
         			<div class="section my-self">
-                        <div class="main-title">
+                        <div class="main-title active">
                             <a href="javascript:slide('timeline1')"> Me <div class="arrow"></div></a>
                         </div>
                         
@@ -395,7 +395,21 @@
                     </div><!--END CLIENTS-->
                     
                     
-                    <script>
+					<script> // Add active class to the current button
+						var header = document.getElementById("main_body");
+						var btns = header.getElementsByClassName("main-title");
+						for (var i = 0; i < btns.length; i++) {
+						  btns[i].addEventListener("click", function() {
+						  var current = document.getElementsByClassName("active");
+						  if (current.length > 0) { 
+							current[0].className = current[0].className.replace(" active", "");
+						  }
+						  this.className += " active";
+						  });
+						}
+					</script>
+					
+                    <script> // Slide up down main-title
 						function slide(thisone) {
 							 $('.timeline').each(function(index) {
 								  if ($(this).attr("id") == thisone) {

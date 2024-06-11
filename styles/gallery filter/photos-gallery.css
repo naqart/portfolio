@@ -8,7 +8,7 @@
 #gallery-filter .filter:after 		{content: ""; display: block; border-bottom: 1px solid #77bbff; transform: scaleX(0); transition: 250ms ease-in-out;}
 #gallery-filter .filter:hover:after {text-shadow:0 0 3px #fff; transform: scaleX(1)}
 
-#gallery-filter .filter-current 	{color: #77bbff; border-bottom: 1px solid #77bbff;}
+#gallery-filter .filter-current 	{color: #FFF; background: #7bf8; border-radius: 20px; transition: all 1s;}
 
 
 /*PHOTOS*/

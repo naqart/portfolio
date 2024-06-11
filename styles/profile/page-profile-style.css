@@ -7,12 +7,12 @@
 #navi,
 .main_content		{border-color:#AA88CC;}
 
-.main-title			{text-align:left; margin-bottom: 10px; border-color: #AA88CC}
+.main-title			{text-align:left; margin-bottom: 10px; border-color: #AA88CC; padding: 0;}
 
 .main-title.active,
 .main-title:hover	{background:linear-gradient(90deg, #664499, #8866bb); filter: drop-shadow(0px 3px 2px #111);}
 
-.main-title a 		{color:#fff; display:block;}
+.main-title a 		{color:#fff; display:block; padding: 3px 20px;}
 
 #footer 			{background: radial-gradient(rgba(170,136,204,0.6),rgba(0,0,0,0) 55%);}
 

@@ -181,7 +181,9 @@
 		border-bottom: 16px solid transparent; 
 		border-left: 28px solid #FFF;}
 }
-
+@media only screen and (max-device-width: 480px){
+	#gallery-filter .filter 	{font-size: 0.8em;}
+}
 @media only screen and (max-device-width: 1024px){
 	.view h2 	{font-size: 0.8em; padding: 8px 10px;}
 }

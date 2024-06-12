@@ -50,6 +50,7 @@ ul.boxes a, .boxes img 	{
 	margin:0;
     opacity: 1;
     transition: 1s;
+	user-select: none;
 }
 .rollover .back {
     z-index: 1;

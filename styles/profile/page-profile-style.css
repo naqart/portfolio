@@ -25,7 +25,7 @@
 	display:none;
 }
 
-.main-title a .arrow		{float:right; position: relative; width: 10px; height: 10px; top:5px; transform: rotateZ(-90deg) translateY(-10px); transition: 0.2s;}
+.main-title a .arrow		{float:right; position: relative; width: 10px; height: 10px; top:6px; transform: rotateZ(-90deg) translateY(-10px); transition: 0.2s;}
 .main-title a .arrow:before,
 .main-title a .arrow:after	{
 	position: absolute;

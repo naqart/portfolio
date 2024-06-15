@@ -45,6 +45,7 @@
 	transform-origin: 100% 100%;
 }
 .main-title.active a .arrow {
+	top: 5px;
 	transform: rotateZ(0);
 }
 

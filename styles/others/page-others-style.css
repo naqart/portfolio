@@ -37,12 +37,12 @@ a.section {
 
 /* Text styling */
 .section span {
-	font-size: 3.5vmin;
+	font-size: 3vmin;
 	font-weight: bold;
 	color:#E44666;
 }
 .section p {
-	font-size: 2.2vmin;
+	font-size: 2vmin;
 	text-align:left;
 	color:#aaa;
 	margin: 10px 0;

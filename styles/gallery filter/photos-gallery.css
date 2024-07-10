@@ -30,7 +30,7 @@
 /*-------- FOR MOBILE ---------*/
 @media only screen and (max-device-width: 480px){
 	
-	#gallery-filter .filter {font-size: 15px; padding: 0 4px;}
+	#gallery-filter .filter {font-size: 15px; padding: 0 5px; margin: 5px 0px;}
 	
 	#gallery-filter .filter-current 	{border-radius: 8px;}
 
@@ -38,5 +38,5 @@
 }
 
 @media only screen and (max-device-width: 360px){
-	#gallery-filter .filter {font-size: 14px; padding: 0 3px;}
+	#gallery-filter .filter {font-size: 14px; padding: 0 5px; margin: 5px 0px}
 }

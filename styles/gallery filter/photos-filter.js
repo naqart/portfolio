@@ -34,7 +34,7 @@ $("#group1").click(function() {  $container.isotope({ filter: '.group1' }); butt
 $("#group2").click(function() {  $container.isotope({ filter: '.group2' }); button = 3; check_button();  });
 $("#group3").click(function() {  $container.isotope({ filter: '.group3' }); button = 4; check_button();  });
 $("#group4").click(function() {  $container.isotope({ filter: '.group4' }); button = 5; check_button();  });
-$("#group4").click(function() {  $container.isotope({ filter: '.group5' }); button = 6; check_button();  });
+$("#group5").click(function() {  $container.isotope({ filter: '.group5' }); button = 6; check_button();  });
 
 check_button();
 });

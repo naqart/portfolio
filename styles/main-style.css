@@ -144,7 +144,7 @@ a img 			{border:none}
 }
 
 @media only screen and (max-device-width: 375px){
-	#navi ul li a 	{padding: 2px 2px;}	
+	#navi ul li a 	{padding: 2px 3px;}	
 }
 
 @media only screen and (max-device-width: 360px){

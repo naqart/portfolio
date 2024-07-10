@@ -143,6 +143,7 @@ a img 			{border:none}
 	#footer ul 		{max-width: 360px;}
 }
 
+@media only screen and (max-device-width: 375px),
 @media only screen and (max-device-width: 360px){
 	#navi ul li a 	{font-size: 14px; padding: 2px 3px;}	
 }

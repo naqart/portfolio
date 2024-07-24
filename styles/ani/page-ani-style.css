@@ -1,7 +1,7 @@
 /*-- GALLERY FILTER --*/
 #gallery-filter						{display: flex; margin-bottom: 15px;}
 #gallery-filter .filter 			{color: #ccc; background: #fff2; border-radius: 20px; padding:0 10px; margin: 5px; font-size: 1.3em; text-align: center; cursor:pointer;}
-#gallery-filter .filter:after		{content: ""; display: block; border-bottom: 1px solid #77bbff; transform: scaleX(0); transition: transform 250ms ease-in-out;}
+#gallery-filter .filter:after		{content: ""; display: block; border-bottom: 1px solid #77bbff; transform: scaleX(0); transition: transform 200ms ease-in-out;}
 #gallery-filter .filter:hover:after {text-shadow:0 0 3px #fff; transform: scaleX(1); background: #7bf8;}
 
 #gallery-filter .filter-current 	{color: #FFF; background: #7bf8; border-radius: 20px; transition: all 0.8s;}

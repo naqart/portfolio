@@ -116,5 +116,7 @@ a.cbp-so-animate .slide-box {
 
 /*--- FOR MOBILE ---*/
 @media only screen and (max-device-width: 480px){
+	.section p 		{margin-top: 5px; margin-bottom: 8px;}
 	
+	.section figure {margin-right: 8px; margin-bottom: 10px;}
 }

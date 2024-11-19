@@ -30,7 +30,7 @@ a img 			{border:none}
 /*--- NAVI ---*/
 #navi			{width: 95%; max-width:600px; height: auto; display: flex; margin:0 auto; padding:0 50px; border-bottom:1px solid;}
 .menu			{width: 25%; max-width: 150px; height:auto; user-select: none;}
-.menu a			{width:100%; font-size:1.4em; color:#DDD; text-align:center; line-height:40px; display: block;
+.menu a			{width:100%; font-size:1.4em; color:#DDD; text-align:center; line-height:40px; display: block; border-radius: 20px 20px 0 0;
 
 				background-size:100% 200%;
 				-webkit-transition: all 0.3s;

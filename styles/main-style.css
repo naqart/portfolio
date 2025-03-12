@@ -16,7 +16,7 @@ a				{text-decoration:none;}
 img				{outline:1px solid transparent;}
 a img 			{border:none}
 
-#body_content	{margin:0px auto; width: 96%; max-width:960px; position: relative;}
+#body_content	{margin:0px auto; width: 96%; max-width:960px; position: relative; font-family: calibri;}
 
 .portfolio-pages #body_content,
 #others-page #body_content 		{max-width: 1820px;}

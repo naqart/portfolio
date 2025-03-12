@@ -16,7 +16,7 @@ a				{text-decoration:none;}
 img				{outline:1px solid transparent;}
 a img 			{border:none}
 
-#body_content	{margin:0px auto; width: 96%; max-width:960px; position: relative; font-family: calibri;}
+#body_content	{margin:0px auto; width: 96%; max-width:960px; position: relative;}
 
 .portfolio-pages #body_content,
 #others-page #body_content 		{max-width: 1820px;}
@@ -101,7 +101,7 @@ a img 			{border:none}
 .portfolio-nav:hover ~ .profile-nav ul {overflow: hidden !important;} /*showing 1 sub menu at a time*/
 
 /*--- MAIN BODY ---*/
-#main_body		{width:100%;}
+#main_body		{width:100%; font-family: calibri;}
 
 .main_content	{width:100%; min-height:420px; margin-top:40px; padding:20px; 
 				 background:radial-gradient(ellipse, rgba(255, 255, 255, 0.1) 0%, rgba(244, 211, 255, 0.1) ); 

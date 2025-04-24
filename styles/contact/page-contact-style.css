@@ -22,14 +22,14 @@
 	transform: rotateY(180deg);
 }
 .contact-ava .front	{
-	transform:translate3d(0,0,0px); 
+	transform:rotateY(25deg); 
 	transition:all 1s ease 0s; 
 	position:absolute; 
 	z-index:2; 
 	perspective:800px;
 }
 .contact-ava .back	{
-	transform:rotateY(180deg) translate3d(0,0,0px); 
+	transform:rotateY(205deg) translate3d(0,0,0px); 
 	transition:all 1s ease 0s; 
 	z-index:1; 
 	opacity:0; 
@@ -38,8 +38,8 @@
 .contact-ava .rollover:hover .back	{opacity:1;}
 .contact-ava .rollover:hover .front	{opacity:0;}
 
-.contact-ava img		{transform:rotateY(25deg); transform-style: preserve-3d; width: 100%; outline:1px solid transparent; border:5px solid; border-radius: 10px;}
-.contact-ava .back img	{transform:rotateY(-25deg);}
+.contact-ava img		{transform-style: preserve-3d; width: 100%; outline:1px solid transparent; border:5px solid; border-radius: 10px;}
+.contact-ava .back img	{}
 
 .contact-info 					{width:auto; padding:0px 0 0 40px; display: flex; flex-direction: column; justify-content: center}
 

@@ -54,7 +54,9 @@ a img 			{border:none}
 .portfolio-pages .main-title  			{border-color:#77AAFF !important;}
 
 .portfolio-pages #navi .portfolio-nav a,
-.main_content_portfolio .main-title		{background: #77AAFF88; color: #fff; display: none}
+.main_content_portfolio .main-title		{background: #77AAFF88; color: #fff;}
+
+.portfolio-pages .main-title 			{display: none;}
 
 /*--- MENU 2ND LEVEL ---*/
 .portfolio-nav ul,

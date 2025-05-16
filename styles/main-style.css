@@ -98,7 +98,7 @@ a img 			{border:none}
 #illustrations-page .portfolio-nav ul li:nth-child(3) a,
 #storyboards-page .portfolio-nav ul li:nth-child(4) a,
 #three-d-page .portfolio-nav ul li:nth-child(5) a,
-#profile-vie-page .profile-nav ul li a 				{background-color:rgba(1,1,1,0.35) !important; color:#FFF;}
+#profile-vie-page .profile-nav ul li a 				{background: #00035 !important; color:#FFF;}
 
 .portfolio-nav:hover ~ .profile-nav ul {overflow: hidden !important;} /*showing 1 sub menu at a time*/
 

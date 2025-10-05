@@ -34,7 +34,7 @@
 	
 	#gallery-filter .filter-current 	{border-radius: 8px;}
 
-	#gallery-content img 	{width: 49%; margin: 0.4%}
+	#gallery-content img 	{width: 32.4%; margin: 0.4%}
 }
 
 @media only screen and (max-device-width: 360px){

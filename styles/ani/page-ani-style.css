@@ -169,7 +169,7 @@
 /*-------- FOR MOBILE ---------*/
 @media only screen and (max-device-width: 480px){
 	
-	#gallery-filter .filter 	{padding:0 3px; font-size: 1em;}
+	#gallery-filter .filter 	{padding:0 3px; margin: 0 3px; font-size: 0.9em;}
 	
 	#gallery-filter .filter-current 	{border-radius: 8px;}
 	
@@ -180,9 +180,6 @@
 		border-top: 16px solid transparent; 
 		border-bottom: 16px solid transparent; 
 		border-left: 28px solid #FFF;}
-}
-@media only screen and (max-device-width: 480px){
-	#gallery-filter .filter 	{font-size: 0.8em;}
 }
 @media only screen and (max-device-width: 1024px){
 	.view h2 	{font-size: 0.8em; padding: 8px 10px;}

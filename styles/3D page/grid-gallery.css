@@ -8,7 +8,7 @@
 	border-radius: 8px;
 }
 .grid-gallery a img {
-	width: 332px;
+	width: 274px;
 	transition:transform 0.3s ease-in-out;
 }
 .grid-gallery a:hover img	{

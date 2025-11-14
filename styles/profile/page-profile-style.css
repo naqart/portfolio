@@ -150,6 +150,7 @@
 }
 .my-self .time p {
 	float:left;
+	width: 100%;
 	margin-top:14px;
 	line-height:1;
 }

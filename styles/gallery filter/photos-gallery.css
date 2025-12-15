@@ -30,6 +30,9 @@
 
 /*-------- FOR MOBILE ---------*/
 @media only screen and (max-device-width: 480px){
+	#photos-gallery			{display: block}
+	
+	#gallery-filter 		{display: flex; margin-bottom: 20px; width: 100%;}
 	
 	#gallery-filter .filter {font-size: 15px; padding: 0 5px; margin: 5px 0px;}
 	

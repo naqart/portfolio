@@ -58,7 +58,8 @@
    color: #fff;
    position: relative;
    font-family: system-ui;
-   font-size: 1.1em;
+   font-size: 1em;
+	text-align: center;
    padding:10px 20px;
    background: rgba(0, 0, 0, 0.8);
    margin: 0;
@@ -170,21 +171,25 @@
 
 /*-------- FOR MOBILE ---------*/
 @media only screen and (max-device-width: 480px){
-	#videos-gallery {display: block;}
+#videos-gallery 	{display: block;}
+#gallery-filter		{display: flex; margin-bottom: 20px; width: auto;}
 
-	#gallery-filter .filter 	{padding:0 3px; margin: 0 3px; font-size: 0.9em;}
+#gallery-filter .filter 	{padding:0 3px; margin: 0 3px; font-size: 0.9em;}
 	
-	#gallery-filter .filter-current 	{border-radius: 8px;}
+#gallery-filter .filter-current 	{border-radius: 8px;}
 	
-	.view 		{width: 31.6%; margin-left: 3px; margin-right: 3px;}
-	.view h2 	{font-size: 0.8em; padding: 8px 10px}
+.view 		{width: 31.6%; margin-left: 3px; margin-right: 3px;}
+.view h2 	{font-size: 0.8em; padding: 8px 10px}
 	
-	.view a.play 	{
+.view a.play 	{
 		border-top: 16px solid transparent; 
 		border-bottom: 16px solid transparent; 
 		border-left: 28px solid #FFF;}
 }
 @media only screen and (max-device-width: 1024px){
-	.view h2 	{font-size: 0.8em; padding: 8px 10px;}
+#videos-gallery 	{display: block;}
+#gallery-filter		{display: flex; margin-bottom: 20px; width: auto;}
+
+.view h2 	{font-size: 0.8em; padding: 8px 10px;}
 }
 

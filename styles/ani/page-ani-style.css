@@ -172,7 +172,7 @@
 /*-------- FOR MOBILE ---------*/
 @media only screen and (max-device-width: 480px){
 #videos-gallery 	{display: block;}
-#gallery-filter		{display: flex; margin-bottom: 20px; width: auto;}
+#gallery-filter		{display: flex; float: none; margin-bottom: 20px; width: 100%;}
 
 #gallery-filter .filter 	{padding:0 3px; margin: 0 3px; font-size: 0.9em;}
 	
@@ -188,7 +188,7 @@
 }
 @media only screen and (max-device-width: 1024px){
 #videos-gallery 	{display: block;}
-#gallery-filter		{display: flex; margin-bottom: 20px; width: auto;}
+#gallery-filter		{margin-bottom: 20px; width: auto;}
 
 .view h2 	{font-size: 0.8em; padding: 8px 10px;}
 }

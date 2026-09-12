@@ -54,7 +54,7 @@ a img 			{border:none}
 .portfolio-pages .main-title  			{border-color:#77AAFF !important;}
 
 .portfolio-pages #navi .portfolio-nav a,
-.main_content_portfolio .main-title		{background: #77AAFF88; color: #fff;}
+.main_content_portfolio .main-title		{background: linear-gradient(60deg, #0cfa, #60fa); color: #fff;}
 
 .portfolio-pages .main-title 			{display: none;}
 
@@ -86,7 +86,7 @@ a img 			{border:none}
 #navi ul li a			{line-height:30px; width: auto; display:block; align-content: center; 
 						padding: 2px 0; border-radius: 20px; font-size:1.1em; background:none !important;}
 
-#navi .portfolio-nav ul li a:hover	{background-color:rgba(119,170,255,0.75) !important;}
+#navi .portfolio-nav ul li a:hover	{background-color:linear-gradient(60deg, #0cfa, #60fa) !important;}
 #navi .profile-nav ul li a:hover 	{background-color:rgba(170,136,204,0.75) !important;}
 
 .portfolio-pages .portfolio-nav ul,

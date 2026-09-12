@@ -2,7 +2,7 @@
 #navi .profile-nav a,	
 .main-title,
 .timeline ul:before,
-.timeline .content 	{background: #AA88CC88; color:#FFF;}
+.timeline .content 	{background: #907af999; color:#FFF;}
 
 #navi,
 .main_content		{border-color:#AA88CC;}
@@ -10,7 +10,7 @@
 .main-title			{text-align:left; margin-bottom: 10px; border-color: #AA88CC; padding: 0; border-radius: 5px;}
 
 .main-title.active,
-.main-title:hover	{background:linear-gradient(90deg, #664499, #8866bb); filter: drop-shadow(0px 3px 2px #111);}
+.main-title:hover	{background:linear-gradient(60deg, #f28357, #60f); filter: drop-shadow(0px 3px 2px #111);}
 
 .main-title a 		{color:#fff; display:block; padding: 8px 20px;}
 

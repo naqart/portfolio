@@ -2,12 +2,12 @@
 #navi .profile-nav a,	
 .main-title,
 .timeline ul:before,
-.timeline .content 	{background: #57b1f2; color:#FFF;}
+.timeline .content 	{background: #87fa; color:#FFF;}
 
 #navi,
-.main_content		{border-color:#57b1f2;}
+.main_content		{border-color:#87fa;}
 
-.main-title			{text-align:left; margin-bottom: 10px; border-color: #57b1f2; padding: 0; border-radius: 5px;}
+.main-title			{text-align:left; margin-bottom: 10px; border-color: #87fa; padding: 0; border-radius: 5px;}
 
 .main-title.active,
 .main-title:hover	{background:linear-gradient(60deg, #57b1f2, #60f); filter: drop-shadow(0px 3px 2px #111);}
@@ -60,7 +60,7 @@
 	border-radius: 50%;
 	left: 19.5%;
 	top: 8px;
-	box-shadow: 0 0 0 8px #57b1f2;
+	box-shadow: 0 0 0 8px #87fa;
 }
 
 .timeline ul {
@@ -75,10 +75,10 @@
 .timeline .time span,
 .timeline li:nth-child(even) .content,
 .my-self .time p span:nth-child(4) {
-	color: #57b1f2;
+	color: #87fa;
 }
 .timeline li:nth-child(even) .content,
-.timeline li:nth-child(even) .content h2 {border-color:#57b1f2 !important}
+.timeline li:nth-child(even) .content h2 {border-color:#87fa !important}
 
 /* The line */
 .timeline ul:before {
@@ -115,7 +115,7 @@
 .timeline .content:after {
 	right: 100%;
 	border:10px solid transparent;
-	border-right-color: #57b1f288 ;
+	border-right-color: #87fa ;
 	content: " ";
 	position: absolute;
 	top: 15px;
@@ -178,7 +178,7 @@
 
 .my-self .time p span:nth-child(3) {
 	margin-top:30px;
-	color: #57b1f2;
+	color: #87fa;
 }
 
 .my-self .content img  {
@@ -219,7 +219,7 @@
 		
 	.timeline .time 			{padding: 5px;}
 	.timeline .time span 		{font-size: 0.75em; margin-top: 16px; text-align: center;}
-	.timeline .time-icon 		{width: 15px; height: 15px; top: 12px; box-shadow:0 0 0 4px #57b1f2;}
+	.timeline .time-icon 		{width: 15px; height: 15px; top: 12px; box-shadow:0 0 0 4px #87fa;}
 	
 	.timeline ul:before 		{top: 28px; left: 20.7%; width: 6px;}
 	

@@ -1,7 +1,7 @@
 /*MAIN PAGE*/
 
 #navi .others-nav a,
-.main-title		{background:#E4466688; color:#FFF; margin-bottom:0;}
+.main-title		{background:linear-gradient(60deg, #E44666, #ffcb7a); color:#FFF; margin-bottom:0;}
 
 #navi,
 .main-title,

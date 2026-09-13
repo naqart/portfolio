@@ -87,7 +87,7 @@ a img 			{border:none}
 						padding: 2px 0; border-radius: 20px; font-size:1.1em; background:none !important;}
 
 #navi .portfolio-nav ul li a:hover	{background:linear-gradient(60deg, #0cfa, #60fa) !important;}
-#navi .profile-nav ul li a:hover 	{background-color:rgba(170,136,204,0.75) !important;}
+#navi .profile-nav ul li a:hover 	{background:rgba(170,136,204,0.75) !important;}
 
 .portfolio-pages .portfolio-nav ul,
 #profile-vie-page .profile-nav ul,

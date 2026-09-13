@@ -1,5 +1,5 @@
 /*Main page*/
-#navi .profile-nav a {background:linear-gradient(60deg, #57b1f2, #60f);}
+#navi .profile-nav a {background:linear-gradient(60deg, #57b1f2, #60f); color: #FFF}
 
 .main-title,
 .timeline ul:before,

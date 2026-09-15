@@ -5,7 +5,7 @@
 .contact-ava img,
 .contact-info span		{border-color:#FFD366 !important}
 
-.main_content	 		{display: flex; justify-content: center; align-items: center;}
+.main_content	 		{display: flex; justify-content: center; align-items: center; border-radius: 220px;}
 
 .contact-content 		{display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
 

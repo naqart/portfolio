@@ -97,8 +97,7 @@ a img 			{border:none}
 #designs-page .portfolio-nav ul li:nth-child(2) a,
 #illustrations-page .portfolio-nav ul li:nth-child(3) a,
 #storyboards-page .portfolio-nav ul li:nth-child(4) a,
-#three-d-page .portfolio-nav ul li:nth-child(5) a,
-#profile-eng-page .profile-nav ul li a 				{background: #0005 !important; color:#FFF;}
+#three-d-page .portfolio-nav ul li:nth-child(5) a		{background: #0005 !important; color:#FFF;}
 
 .portfolio-nav:hover ~ .profile-nav ul {overflow: hidden !important;} /*showing 1 sub menu at a time*/
 

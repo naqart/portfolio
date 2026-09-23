@@ -79,7 +79,7 @@ a img 			{border:none}
 .portfolio-nav ul li:first-child 	{border-radius:0 0 0 20px}
 .portfolio-nav ul li:last-child		{border-radius:0 0 20px}
 
-.portfolio-nav ul li	{width: 20%; max-width: 120px; background: #77AAFF44;}
+.portfolio-nav ul li	{width: 25%; max-width: 150px; background: #77AAFF44;}
 .profile-nav ul li 		{width: 100%; max-width: 150px; background: #AA88CC44; border-radius:0 0 20px 20px}
 
 #navi ul li 			{height: fit-content;}

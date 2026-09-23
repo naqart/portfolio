@@ -5,7 +5,7 @@
 #portfolio-page .portfolio-nav ul 		{max-height: 0px; overflow: hidden;}
 #portfolio-page .portfolio-nav:hover ul {max-height: 40px;}
 
-#portfolio-page .main_content	{border-radius: 190px;}
+#portfolio-page .main_content	{border-radius: 210px; padding: 20px 100px;}
 
 .main_content_portfolio		{display: flex; justify-content: center; width: fit-content; margin: 40px auto 0}
 
